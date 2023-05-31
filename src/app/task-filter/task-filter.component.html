@@ -1,0 +1,6 @@
+<div class="btn-group">
+   <button class="btn" (click)="changeFilter('all')" [class.active]="selectedFilter === 'all'">Todas</button>
+   <button class="btn" (click)="changeFilter('completed')" [class.active]="selectedFilter === 'completed'">Completadas</button>
+   <button class="btn" (click)="changeFilter('incomplete')" [class.active]="selectedFilter === 'incomplete'">No Completadas</button>
+ </div>
+ 

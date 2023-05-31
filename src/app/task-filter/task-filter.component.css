@@ -1,0 +1,12 @@
+button {
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   padding: 5px 10px;
+ }
+ 
+ button.active {
+   background-color: blue;
+   color: white;
+ }
+ 
